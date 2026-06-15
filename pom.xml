@@ -700,6 +700,11 @@
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>3.11.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
 					<version>3.10.1</version>
 					<configuration>
@@ -710,10 +715,24 @@
 						<quiet>true</quiet>
 						<doclint>all,-missing</doclint>
 						<failOnWarnings>true</failOnWarnings>
+						<offline>true</offline>
+						<detectOfflineLinks>false</detectOfflineLinks>
 						<links>
-							<link>https://docs.spring.io/spring/docs/6.2.x/javadoc-api/</link>
 							<link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
 						</links>
+						<doclet>io.spring.javaformat.doclet.OfflineLinksDoclet</doclet>
+						<docletArtifact>
+							<groupId>io.spring.javaformat</groupId>
+							<artifactId>spring-javaformat-doclet</artifactId>
+							<version>0.0.48-SNAPSHOT</version>
+						</docletArtifact>
+						<additionalOptions>
+							<additionalOption>-offlinelinks-source ${project.build.directory}/javadoc-dependencies/@name@-javadoc-jar</additionalOption>
+							<additionalOption>-offlinelinks-ignore-packages org.springframework.plugin.core</additionalOption>
+							<additionalOption>-linkoffline https://docs.spring.io/spring/docs/${spring.version}/javadoc-api/ spring-beans,spring-core,spring-context,spring-test,spring-web,spring-webflux,spring-webmvc</additionalOption>
+							<additionalOption>-linkoffline https://javadoc.io/doc/com.fasterxml.jackson.core/jackson-databind/${jackson.version} jackson-databind</additionalOption>
+							<additionalOption>-linkoffline https://javadoc.io/doc/com.jayway.jsonpath/json-path/{jsonpath.version} json-path</additionalOption>
+						</additionalOptions>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -726,6 +745,27 @@
 		</pluginManagement>
 
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>unpack-javadocs</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>unpack-dependencies</goal>
+						</goals>
+						<configuration>
+							<classifier>javadoc</classifier>
+							<outputDirectory>${project.build.directory}/javadoc-dependencies</outputDirectory>
+							<stripVersion>true</stripVersion>
+							<useSubDirectoryPerArtifact>true</useSubDirectoryPerArtifact>
+							<includes>package-list,element-list</includes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
