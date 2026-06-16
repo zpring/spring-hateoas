@@ -708,7 +708,8 @@
 						<javadocVersion>1.8</javadocVersion>
 						<source>${source.level}</source>
 						<quiet>true</quiet>
-						<doclint>none</doclint>
+						<doclint>all,-missing</doclint>
+						<failOnWarnings>true</failOnWarnings>
 						<links>
 							<link>https://docs.spring.io/spring/docs/6.2.x/javadoc-api/</link>
 							<link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
