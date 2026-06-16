@@ -312,7 +312,7 @@ public class HalModelBuilder {
 
 	/**
 	 * Add a {@link Link} to the whole thing.
-	 * <p/>
+	 * <p>
 	 * NOTE: This adds it to the top level. If you need a link inside an entity, then use the {@link HalModelBuilder} to
 	 * define it as well.
 	 *

@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
  *
  * @author Oliver Drotbohm
  * @since 1.3
- * @see https://www.w3.org/TR/html52/sec-forms.html#element-attrdef-input-type
+ * @see <a href="https://www.w3.org/TR/html52/sec-forms.html#element-attrdef-input-type">https://www.w3.org/TR/html52/sec-forms.html#element-attrdef-input-type</a>
  */
 public class HtmlInputType {
 

@@ -30,7 +30,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.15
- * @see http://alps.io/spec/#prop-doc
+ * @see <a href="http://alps.io/spec/#prop-doc">http://alps.io/spec/#prop-doc</a>
  */
 @JsonPropertyOrder({ "format", "href", "value" })
 @JsonInclude(JsonInclude.Include.NON_NULL)

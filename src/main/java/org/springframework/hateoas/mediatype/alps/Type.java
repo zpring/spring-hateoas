@@ -23,7 +23,7 @@ import java.util.Locale;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.15
- * @see http://alps.io/spec/#prop-type
+ * @see <a href="http://alps.io/spec/#prop-type">http://alps.io/spec/#prop-type</a>
  */
 public enum Type {
 

@@ -58,7 +58,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  *
  * @author Oliver Gierke
  * @author Greg Turnquist
- * @soundtrack Elephants Crossing - Wait (Live at Stadtfest Dresden)
  * @since 0.19
  */
 @Configuration(proxyBeanMethods = false)

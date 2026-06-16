@@ -41,7 +41,6 @@ import org.springframework.web.method.support.ModelAndViewContainer;
  *
  * @author Oliver Gierke
  * @since 0.20
- * @soundtrack Doppelkopf - Balance (Von Abseits)
  */
 public class RepresentationModelProcessorHandlerMethodReturnValueHandler implements HandlerMethodReturnValueHandler {
 

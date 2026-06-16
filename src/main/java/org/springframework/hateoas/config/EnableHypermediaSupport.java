@@ -22,10 +22,12 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.util.List;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Import;
 import org.springframework.hateoas.MediaTypes;
 import org.springframework.hateoas.support.WebStack;
 import org.springframework.http.MediaType;
+import org.springframework.web.reactive.function.client.WebClient;
 
 /**
  * Activates hypermedia support in the {@link ApplicationContext}. Will register infrastructure beans to support all
@@ -67,15 +69,15 @@ public @interface EnableHypermediaSupport {
 		/**
 		 * HAL - Hypermedia Application Language.
 		 *
-		 * @see http://stateless.co/hal_specification.html
-		 * @see https://tools.ietf.org/html/draft-kelly-json-hal
+		 * @see <a href="https://stateless.co/hal_specification.html">https://stateless.co/hal_specification.html</a>
+		 * @see <a href="https://tools.ietf.org/html/draft-kelly-json-hal">https://tools.ietf.org/html/draft-kelly-json-hal</a>
 		 */
 		HAL(List.of(MediaTypes.HAL_JSON, MediaTypes.VND_HAL_JSON), "hal"),
 
 		/**
 		 * HAL-FORMS - Independent, backward-compatible extension of the HAL designed to add runtime FORM support
 		 *
-		 * @see https://rwcbook.github.io/hal-forms/
+		 * @see <a href="https://rwcbook.github.io/hal-forms/">https://rwcbook.github.io/hal-forms/</a>
 		 */
 		HAL_FORMS(MediaTypes.HAL_FORMS_JSON, "hal.forms"),
 
@@ -84,14 +86,14 @@ public @interface EnableHypermediaSupport {
 		/**
 		 * Collection+JSON
 		 *
-		 * @see http://amundsen.com/media-types/collection/format/
+		 * @see <a href="https://mamund.com/media-types/collection/format/">https://mamund.com/media-types/collection/format/</a>
 		 */
 		COLLECTION_JSON(MediaTypes.COLLECTION_JSON, "collectionjson"),
 
 		/**
 		 * UBER Hypermedia
 		 *
-		 * @see https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html
+		 * @see <a href="https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html">https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html</a>
 		 */
 		UBER(MediaTypes.UBER_JSON, "uber");
 

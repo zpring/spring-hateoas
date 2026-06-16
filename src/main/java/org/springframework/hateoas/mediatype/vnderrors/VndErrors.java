@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 /**
  * A representation model class to be rendered as specified for the media type {@code application/vnd.error+json}.
  *
- * @see https://github.com/blongden/vnd.error
+ * @see <a href="https://github.com/blongden/vnd.error">https://github.com/blongden/vnd.error</a>
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @deprecated since 1.1, use {@link org.springframework.hateoas.mediatype.problem.Problem} to form vendor neutral error

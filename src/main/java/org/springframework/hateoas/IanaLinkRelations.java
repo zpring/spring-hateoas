@@ -22,9 +22,9 @@ import org.springframework.util.Assert;
 /**
  * Capture standard IANA-based link relations.
  *
- * @see {@link https://www.iana.org/assignments/link-relations/link-relations.xhtml}
- * @see {@link https://tools.ietf.org/html/rfc8288}
- * @see {@link https://github.com/link-relations/registry}
+ * @see <a href="https://www.iana.org/assignments/link-relations/link-relations.xhtml">https://www.iana.org/assignments/link-relations/link-relations.xhtml</a>
+ * @see <a href="https://tools.ietf.org/html/rfc8288">https://tools.ietf.org/html/rfc8288</a>
+ * @see <a href="https://github.com/link-relations/registry">https://github.com/link-relations/registry</a>
  * @author Greg Turnquist
  * @author Roland Kulcsár
  * @author Oliver Gierke
@@ -41,7 +41,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that is the subject of the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6903}
+	 * @see <a href="https://tools.ietf.org/html/rfc6903">https://tools.ietf.org/html/rfc6903</a>
 	 */
 	public static final LinkRelation ABOUT = LinkRelation.of(ABOUT_VALUE);
 
@@ -53,7 +53,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a substitute for this context
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-alternate}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-alternate">https://www.w3.org/TR/html5/links.html#link-type-alternate</a>
 	 */
 	public static final LinkRelation ALTERNATE = LinkRelation.of(ALTERNATE_VALUE);
 
@@ -65,7 +65,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to an appendix.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation APPENDIX = LinkRelation.of(APPENDIX_VALUE);
 
@@ -77,7 +77,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a collection of records, documents, or other materials of historical interest.
 	 *
-	 * @see {@link https://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives}
+	 * @see <a href="https://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives">https://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives</a>
 	 */
 	public static final LinkRelation ARCHIVES = LinkRelation.of(ARCHIVES_VALUE);
 
@@ -89,7 +89,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the context's author.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-author}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-author">https://www.w3.org/TR/html5/links.html#link-type-author</a>
 	 */
 	public static final LinkRelation AUTHOR = LinkRelation.of(AUTHOR_VALUE);
 
@@ -101,7 +101,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Identifies the entity that blocks access to a resource following receipt of a legal demand.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7725}
+	 * @see <a href="https://tools.ietf.org/html/rfc7725">https://tools.ietf.org/html/rfc7725</a>
 	 */
 	public static final LinkRelation BLOCKED_BY = LinkRelation.of(BLOCKED_BY_VALUE);
 
@@ -113,7 +113,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Gives a permanent link to use for bookmarking purposes.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-bookmark}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-bookmark">https://www.w3.org/TR/html5/links.html#link-type-bookmark</a>
 	 */
 	public static final LinkRelation BOOKMARK = LinkRelation.of(BOOKMARK_VALUE);
 
@@ -125,7 +125,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Designates the preferred version of a resource (the IRI and its contents).
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6596}
+	 * @see <a href="https://tools.ietf.org/html/rfc6596">https://tools.ietf.org/html/rfc6596</a>
 	 */
 	public static final LinkRelation CANONICAL = LinkRelation.of(CANONICAL_VALUE);
 
@@ -137,7 +137,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a chapter in a collection of resources.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation CHAPTER = LinkRelation.of(CHAPTER_VALUE);
 
@@ -149,7 +149,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates that the link target is preferred over the link context for the purpose of referencing.
 	 *
-	 * @see {@link https://datatracker.ietf.org/doc/draft-vandesompel-citeas/}
+	 * @see <a href="https://datatracker.ietf.org/doc/draft-vandesompel-citeas/">https://datatracker.ietf.org/doc/draft-vandesompel-citeas/</a>
 	 */
 	public static final LinkRelation CITE_AS = LinkRelation.of(CITE_AS_VALUE);
 
@@ -161,7 +161,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The target IRI points to a resource which represents the collection resource for the context IRI.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6573}
+	 * @see <a href="https://tools.ietf.org/html/rfc6573">https://tools.ietf.org/html/rfc6573</a>
 	 */
 	public static final LinkRelation COLLECTION = LinkRelation.of(COLLECTION_VALUE);
 
@@ -173,7 +173,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a table of contents.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation CONTENTS = LinkRelation.of(CONTENTS_VALUE);
 
@@ -187,7 +187,7 @@ public final class IanaLinkRelations {
 	 * can have a link to the Internet-Draft that became the RFC; in that case, the link relation would be
 	 * "convertedFrom".
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7991}
+	 * @see <a href="https://tools.ietf.org/html/rfc7991">https://tools.ietf.org/html/rfc7991</a>
 	 */
 	public static final LinkRelation CONVERTED_FROM = LinkRelation.of(CONVERTED_FROM_VALUE);
 
@@ -199,7 +199,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a copyright statement that applies to the link's context.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation COPYRIGHT = LinkRelation.of(COPYRIGHT_VALUE);
 
@@ -211,7 +211,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The target IRI points to a resource where a submission form can be obtained.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6861}
+	 * @see <a href="https://tools.ietf.org/html/rfc6861">https://tools.ietf.org/html/rfc6861</a>
 	 */
 	public static final LinkRelation CREATE_FORM = LinkRelation.of(CREATE_FORM_VALUE);
 
@@ -223,7 +223,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource containing the most recent item(s) in a collection of resources.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5005}
+	 * @see <a href="https://tools.ietf.org/html/rfc5005">https://tools.ietf.org/html/rfc5005</a>
 	 */
 	public static final LinkRelation CURRENT = LinkRelation.of(CURRENT_VALUE);
 
@@ -235,7 +235,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource providing information about the link's context.
 	 *
-	 * @see {@link https://www.w3.org/TR/powder-dr/#assoc-linking}
+	 * @see <a href="https://www.w3.org/TR/powder-dr/#assoc-linking">https://www.w3.org/TR/powder-dr/#assoc-linking</a>
 	 */
 	public static final LinkRelation DESCRIBED_BY = LinkRelation.of(DESCRIBED_BY_VALUE);
 
@@ -249,7 +249,7 @@ public final class IanaLinkRelations {
 	 * constraints on the format or representation of either A or B, neither are there any further constraints on either
 	 * resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6892}
+	 * @see <a href="https://tools.ietf.org/html/rfc6892">https://tools.ietf.org/html/rfc6892</a>
 	 */
 	public static final LinkRelation DESCRIBES = LinkRelation.of(DESCRIBES_VALUE);
 
@@ -261,7 +261,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a list of patent disclosures made with respect to material for which 'disclosure' relation is specified.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6579}
+	 * @see <a href="https://tools.ietf.org/html/rfc6579">https://tools.ietf.org/html/rfc6579</a>
 	 */
 	public static final LinkRelation DISCLOSURE = LinkRelation.of(DISCLOSURE_VALUE);
 
@@ -274,7 +274,7 @@ public final class IanaLinkRelations {
 	 * Used to indicate an origin that will be used to fetch required resources for the link context, and that the user
 	 * agent ought to resolve as early as possible.
 	 *
-	 * @see {@link https://www.w3.org/TR/resource-hints/}
+	 * @see <a href="https://www.w3.org/TR/resource-hints/">https://www.w3.org/TR/resource-hints/</a>
 	 */
 	public static final LinkRelation DNS_PREFETCH = LinkRelation.of(DNS_PREFETCH_VALUE);
 
@@ -287,7 +287,7 @@ public final class IanaLinkRelations {
 	 * Refers to a resource whose available representations are byte-for-byte identical with the corresponding
 	 * representations of the context IRI.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6249}
+	 * @see <a href="https://tools.ietf.org/html/rfc6249">https://tools.ietf.org/html/rfc6249</a>
 	 */
 	public static final LinkRelation DUPLICATE = LinkRelation.of(DUPLICATE_VALUE);
 
@@ -299,7 +299,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that can be used to edit the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5023}
+	 * @see <a href="https://tools.ietf.org/html/rfc5023">https://tools.ietf.org/html/rfc5023</a>
 	 */
 	public static final LinkRelation EDIT = LinkRelation.of(EDIT_VALUE);
 
@@ -311,7 +311,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The target IRI points to a resource where a submission form for editing associated resource can be obtained.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6861}
+	 * @see <a href="https://tools.ietf.org/html/rfc6861">https://tools.ietf.org/html/rfc6861</a>
 	 */
 	public static final LinkRelation EDIT_FORM = LinkRelation.of(EDIT_FORM_VALUE);
 
@@ -323,7 +323,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that can be used to edit media associated with the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5023}
+	 * @see <a href="https://tools.ietf.org/html/rfc5023">https://tools.ietf.org/html/rfc5023</a>
 	 */
 	public static final LinkRelation EDIT_MEDIA = LinkRelation.of(EDIT_MEDIA_VALUE);
 
@@ -335,7 +335,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Identifies a related resource that is potentially large and might require special handling.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4287}
+	 * @see <a href="https://tools.ietf.org/html/rfc4287">https://tools.ietf.org/html/rfc4287</a>
 	 */
 	public static final LinkRelation ENCLOSURE = LinkRelation.of(ENCLOSURE_VALUE);
 
@@ -347,7 +347,7 @@ public final class IanaLinkRelations {
 	/**
 	 * An IRI that refers to the furthest preceding resource in a series of resources.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc8288}
+	 * @see <a href="https://tools.ietf.org/html/rfc8288">https://tools.ietf.org/html/rfc8288</a>
 	 */
 	public static final LinkRelation FIRST = LinkRelation.of(FIRST_VALUE);
 
@@ -359,7 +359,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a glossary of terms.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation GLOSSARY = LinkRelation.of(GLOSSARY_VALUE);
 
@@ -371,7 +371,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to context-sensitive help.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-help}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-help">https://www.w3.org/TR/html5/links.html#link-type-help</a>
 	 */
 	public static final LinkRelation HELP = LinkRelation.of(HELP_VALUE);
 
@@ -383,7 +383,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource hosted by the server indicated by the link context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6690}
+	 * @see <a href="https://tools.ietf.org/html/rfc6690">https://tools.ietf.org/html/rfc6690</a>
 	 */
 	public static final LinkRelation HOSTS = LinkRelation.of(HOSTS_VALUE);
 
@@ -395,7 +395,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a hub that enables registration for notification of updates to the context.
 	 *
-	 * @see {@link https://pubsubhubbub.googlecode.com}
+	 * @see <a href="https://pubsubhubbub.googlecode.com">https://pubsubhubbub.googlecode.com</a>
 	 */
 	public static final LinkRelation HUB = LinkRelation.of(HUB_VALUE);
 
@@ -407,7 +407,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to an icon representing the link's context.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-icon}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-icon">https://www.w3.org/TR/html5/links.html#link-type-icon</a>
 	 */
 	public static final LinkRelation ICON = LinkRelation.of(ICON_VALUE);
 
@@ -419,7 +419,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to an index.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation INDEX = LinkRelation.of(INDEX_VALUE);
 
@@ -432,7 +432,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval that ends before the beginning of the time interval associated
 	 * with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalAfter section 4.2.21}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalAfter">https://www.w3.org/TR/owl-time/#time:intervalAfter section 4.2.21</a>
 	 */
 	public static final LinkRelation INTERVAL_AFTER = LinkRelation.of(INTERVAL_AFTER_VALUE);
 
@@ -445,7 +445,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval that begins after the end of the time interval associated with
 	 * the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalBefore section 4.2.22}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalBefore">https://www.w3.org/TR/owl-time/#time:intervalBefore section 4.2.22</a>
 	 */
 	public static final LinkRelation INTERVAL_BEFORE = LinkRelation.of(INTERVAL_BEFORE_VALUE);
 
@@ -459,7 +459,7 @@ public final class IanaLinkRelations {
 	 * associated with the context resource, and ends before the end of the time interval associated with the context
 	 * resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalContains section 4.2.23}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalContains">https://www.w3.org/TR/owl-time/#time:intervalContains section 4.2.23</a>
 	 */
 	public static final LinkRelation INTERVAL_CONTAINS = LinkRelation.of(INTERVAL_CONTAINS_VALUE);
 
@@ -472,7 +472,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval that begins after the end of the time interval associated with
 	 * the context resource, or ends before the beginning of the time interval associated with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalDisjoint section 4.2.24}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalDisjoint">https://www.w3.org/TR/owl-time/#time:intervalDisjoint section 4.2.24</a>
 	 */
 	public static final LinkRelation INTERVAL_DISJOINT = LinkRelation.of(INTERVAL_DISJOINT_VALUE);
 
@@ -486,7 +486,7 @@ public final class IanaLinkRelations {
 	 * associated with the context resource, and ends after the end of the time interval associated with the context
 	 * resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalDuring section 4.2.25}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalDuring">https://www.w3.org/TR/owl-time/#time:intervalDuring section 4.2.25</a>
 	 */
 	public static final LinkRelation INTERVAL_DURING = LinkRelation.of(INTERVAL_DURING_VALUE);
 
@@ -500,7 +500,7 @@ public final class IanaLinkRelations {
 	 * interval associated with the context resource, and whose end coincides with the end of the time interval associated
 	 * with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalEquals section 4.2.26}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalEquals">https://www.w3.org/TR/owl-time/#time:intervalEquals section 4.2.26</a>
 	 */
 	public static final LinkRelation INTERVAL_EQUALS = LinkRelation.of(INTERVAL_EQUALS_VALUE);
 
@@ -514,7 +514,7 @@ public final class IanaLinkRelations {
 	 * associated with the context resource, and whose end coincides with the end of the time interval associated with the
 	 * context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalFinishedBy section 4.2.27}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalFinishedBy">https://www.w3.org/TR/owl-time/#time:intervalFinishedBy section 4.2.27</a>
 	 */
 	public static final LinkRelation INTERVAL_FINISHED_BY = LinkRelation.of(INTERVAL_FINISHED_BY_VALUE);
 
@@ -528,7 +528,7 @@ public final class IanaLinkRelations {
 	 * associated with the context resource, and whose end coincides with the end of the time interval associated with the
 	 * context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalFinishes section 4.2.28}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalFinishes">https://www.w3.org/TR/owl-time/#time:intervalFinishes section 4.2.28</a>
 	 */
 	public static final LinkRelation INTERVAL_FINISHES = LinkRelation.of(INTERVAL_FINISHES_VALUE);
 
@@ -542,7 +542,7 @@ public final class IanaLinkRelations {
 	 * time interval associated with the context resource, and ends after or is coincident with the end of the time
 	 * interval associated with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalIn section 4.2.29}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalIn">https://www.w3.org/TR/owl-time/#time:intervalIn section 4.2.29</a>
 	 */
 	public static final LinkRelation INTERVAL_IN = LinkRelation.of(INTERVAL_IN_VALUE);
 
@@ -555,7 +555,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval whose beginning coincides with the end of the time interval
 	 * associated with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalMeets section 4.2.30}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalMeets">https://www.w3.org/TR/owl-time/#time:intervalMeets section 4.2.30</a>
 	 */
 	public static final LinkRelation INTERVAL_MEETS = LinkRelation.of(INTERVAL_MEETS_VALUE);
 
@@ -568,7 +568,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval whose beginning coincides with the end of the time interval
 	 * associated with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalMetBy section 4.2.31}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalMetBy">https://www.w3.org/TR/owl-time/#time:intervalMetBy section 4.2.31</a>
 	 */
 	public static final LinkRelation INTERVAL_MET_BY = LinkRelation.of(INTERVAL_MET_BY_VALUE);
 
@@ -582,7 +582,7 @@ public final class IanaLinkRelations {
 	 * associated with the context resource, and ends after the beginning of the time interval associated with the context
 	 * resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy section 4.2.32}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy">https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy section 4.2.32</a>
 	 */
 	public static final LinkRelation INTERVAL_OVERLAPPED_BY = LinkRelation.of(INTERVAL_OVERLAPPED_BY_VALUE);
 
@@ -595,7 +595,7 @@ public final class IanaLinkRelations {
 	 * refers to a resource associated with a time interval that begins before the end of the time interval associated
 	 * with the context resource, and ends after the end of the time interval associated with the context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalOverlaps section 4.2.33}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalOverlaps">https://www.w3.org/TR/owl-time/#time:intervalOverlaps section 4.2.33</a>
 	 */
 	public static final LinkRelation INTERVAL_OVERLAPS = LinkRelation.of(INTERVAL_OVERLAPS_VALUE);
 
@@ -609,7 +609,7 @@ public final class IanaLinkRelations {
 	 * interval associated with the context resource, and ends before the end of the time interval associated with the
 	 * context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalStartedBy section 4.2.34}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalStartedBy">https://www.w3.org/TR/owl-time/#time:intervalStartedBy section 4.2.34</a>
 	 */
 	public static final LinkRelation INTERVAL_STARTED_BY = LinkRelation.of(INTERVAL_STARTED_BY_VALUE);
 
@@ -623,7 +623,7 @@ public final class IanaLinkRelations {
 	 * interval associated with the context resource, and ends after the end of the time interval associated with the
 	 * context resource
 	 *
-	 * @see {@link https://www.w3.org/TR/owl-time/#time:intervalStarts section 4.2.35}
+	 * @see <a href="https://www.w3.org/TR/owl-time/#time:intervalStarts">https://www.w3.org/TR/owl-time/#time:intervalStarts section 4.2.35</a>
 	 */
 	public static final LinkRelation INTERVAL_STARTS = LinkRelation.of(INTERVAL_STARTS_VALUE);
 
@@ -635,7 +635,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The target IRI points to a resource that is a member of the collection represented by the context IRI.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6573}
+	 * @see <a href="https://tools.ietf.org/html/rfc6573">https://tools.ietf.org/html/rfc6573</a>
 	 */
 	public static final LinkRelation ITEM = LinkRelation.of(ITEM_VALUE);
 
@@ -647,7 +647,7 @@ public final class IanaLinkRelations {
 	/**
 	 * An IRI that refers to the furthest following resource in a series of resources.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc8288}
+	 * @see <a href="https://tools.ietf.org/html/rfc8288">https://tools.ietf.org/html/rfc8288</a>
 	 */
 	public static final LinkRelation LAST = LinkRelation.of(LAST_VALUE);
 
@@ -659,7 +659,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to a resource containing the latest (e.g., current) version of the context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation LATEST_VERSION = LinkRelation.of(LATEST_VERSION_VALUE);
 
@@ -671,7 +671,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a license associated with this context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4946}
+	 * @see <a href="https://tools.ietf.org/html/rfc4946">https://tools.ietf.org/html/rfc4946</a>
 	 */
 	public static final LinkRelation LICENSE = LinkRelation.of(LICENSE_VALUE);
 
@@ -686,7 +686,7 @@ public final class IanaLinkRelations {
 	 * used elsewhere, it refers to additional links and other metadata. Multiple instances indicate additional LRDD
 	 * resources. LRDD resources MUST have an "application/xrd+xml" representation, and MAY have others.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6415}
+	 * @see <a href="https://tools.ietf.org/html/rfc6415">https://tools.ietf.org/html/rfc6415</a>
 	 */
 	public static final LinkRelation LRDD = LinkRelation.of(LRDD_VALUE);
 
@@ -698,7 +698,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The Target IRI points to a Memento, a fixed resource that will not change state anymore.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7089}
+	 * @see <a href="https://tools.ietf.org/html/rfc7089">https://tools.ietf.org/html/rfc7089</a>
 	 */
 	public static final LinkRelation MEMENTO = LinkRelation.of(MEMENTO_VALUE);
 
@@ -710,7 +710,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that can be used to monitor changes in an HTTP resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5989}
+	 * @see <a href="https://tools.ietf.org/html/rfc5989">https://tools.ietf.org/html/rfc5989</a>
 	 */
 	public static final LinkRelation MONITOR = LinkRelation.of(MONITOR_VALUE);
 
@@ -722,7 +722,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that can be used to monitor changes in a specified group of HTTP resources.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5989}
+	 * @see <a href="https://tools.ietf.org/html/rfc5989">https://tools.ietf.org/html/rfc5989</a>
 	 */
 	public static final LinkRelation MONITOR_GROUP = LinkRelation.of(MONITOR_GROUP_VALUE);
 
@@ -734,7 +734,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates that the link's context is a part of a series, and that the next in the series is the link target.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-next}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-next">https://www.w3.org/TR/html5/links.html#link-type-next</a>
 	 */
 	public static final LinkRelation NEXT = LinkRelation.of(NEXT_VALUE);
 
@@ -746,7 +746,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the immediately following archive resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5005}
+	 * @see <a href="https://tools.ietf.org/html/rfc5005">https://tools.ietf.org/html/rfc5005</a>
 	 */
 	public static final LinkRelation NEXT_ARCHIVE = LinkRelation.of(NEXT_ARCHIVE_VALUE);
 
@@ -758,7 +758,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates that the context‚Äôs original author or publisher does not endorse the link target.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-nofollow}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-nofollow">https://www.w3.org/TR/html5/links.html#link-type-nofollow</a>
 	 */
 	public static final LinkRelation NOFOLLOW = LinkRelation.of(NOFOLLOW_VALUE);
 
@@ -770,7 +770,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates that no referrer information is to be leaked when following the link.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-noreferrer}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-noreferrer">https://www.w3.org/TR/html5/links.html#link-type-noreferrer</a>
 	 */
 	public static final LinkRelation NOREFERRER = LinkRelation.of(NOREFERRER_VALUE);
 
@@ -782,7 +782,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The Target IRI points to an Original Resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7089}
+	 * @see <a href="https://tools.ietf.org/html/rfc7089">https://tools.ietf.org/html/rfc7089</a>
 	 */
 	public static final LinkRelation ORIGINAL = LinkRelation.of(ORIGINAL_VALUE);
 
@@ -794,7 +794,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates a resource where payment is accepted.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc8288}
+	 * @see <a href="https://tools.ietf.org/html/rfc8288">https://tools.ietf.org/html/rfc8288</a>
 	 */
 	public static final LinkRelation PAYMENT = LinkRelation.of(PAYMENT_VALUE);
 
@@ -806,7 +806,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Gives the address of the pingback resource for the link context.
 	 *
-	 * @see {@link https://www.hixie.ch/specs/pingback/pingback}
+	 * @see <a href="https://www.hixie.ch/specs/pingback/pingback">https://www.hixie.ch/specs/pingback/pingback</a>
 	 */
 	public static final LinkRelation PINGBACK = LinkRelation.of(PINGBACK_VALUE);
 
@@ -820,7 +820,7 @@ public final class IanaLinkRelations {
 	 * connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to
 	 * mask the high latency costs of establishing a connection.
 	 *
-	 * @see {@link https://www.w3.org/TR/resource-hints/}
+	 * @see <a href="https://www.w3.org/TR/resource-hints/">https://www.w3.org/TR/resource-hints/</a>
 	 */
 	public static final LinkRelation PRECONNECT = LinkRelation.of(PRECONNECT_VALUE);
 
@@ -832,7 +832,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to a resource containing the predecessor version in the version history.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation PREDECESSOR_VERSION = LinkRelation.of(PREDECESSOR_VERSION_VALUE);
 
@@ -846,7 +846,7 @@ public final class IanaLinkRelations {
 	 * the link context, and that the user agent ought to fetch, such that the user agent can deliver a faster response
 	 * once the resource is requested in the future.
 	 *
-	 * @see {@link https://www.w3.org/TR/resource-hints/}
+	 * @see <a href="https://www.w3.org/TR/resource-hints/">https://www.w3.org/TR/resource-hints/</a>
 	 */
 	public static final LinkRelation PREFETCH = LinkRelation.of(PREFETCH_VALUE);
 
@@ -859,7 +859,7 @@ public final class IanaLinkRelations {
 	 * Refers to a resource that should be loaded early in the processing of the link's context, without blocking
 	 * rendering.
 	 *
-	 * @see {@link https://www.w3.org/TR/preload/}
+	 * @see <a href="https://www.w3.org/TR/preload/">https://www.w3.org/TR/preload/</a>
 	 */
 	public static final LinkRelation PRELOAD = LinkRelation.of(PRELOAD_VALUE);
 
@@ -873,7 +873,7 @@ public final class IanaLinkRelations {
 	 * agent ought to fetch and execute, such that the user agent can deliver a faster response once the resource is
 	 * requested in the future.
 	 *
-	 * @see {@link https://www.w3.org/TR/resource-hints/}
+	 * @see <a href="https://www.w3.org/TR/resource-hints/">https://www.w3.org/TR/resource-hints/</a>
 	 */
 	public static final LinkRelation PRERENDER = LinkRelation.of(PRERENDER_VALUE);
 
@@ -885,7 +885,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates that the link's context is a part of a series, and that the previous in the series is the link target.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-prev}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-prev">https://www.w3.org/TR/html5/links.html#link-type-prev</a>
 	 */
 	public static final LinkRelation PREV = LinkRelation.of(PREV_VALUE);
 
@@ -897,7 +897,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that provides a preview of the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6903, section 3}
+	 * @see <a href="https://tools.ietf.org/html/rfc6903">https://tools.ietf.org/html/rfc6903, section 3</a>
 	 */
 	public static final LinkRelation PREVIEW = LinkRelation.of(PREVIEW_VALUE);
 
@@ -909,7 +909,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the previous resource in an ordered series of resources. Synonym for "prev".
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation PREVIOUS = LinkRelation.of(PREVIOUS_VALUE);
 
@@ -921,7 +921,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the immediately preceding archive resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5005}
+	 * @see <a href="https://tools.ietf.org/html/rfc5005">https://tools.ietf.org/html/rfc5005</a>
 	 */
 	public static final LinkRelation PREV_ARCHIVE = LinkRelation.of(PREV_ARCHIVE_VALUE);
 
@@ -933,7 +933,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a privacy policy associated with the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6903, section 4}
+	 * @see <a href="https://tools.ietf.org/html/rfc6903">https://tools.ietf.org/html/rfc6903, section 4</a>
 	 */
 	public static final LinkRelation PRIVACY_POLICY = LinkRelation.of(PRIVACY_POLICY_VALUE);
 
@@ -946,7 +946,7 @@ public final class IanaLinkRelations {
 	 * Identifying that a resource representation conforms to a certain profile, without affecting the non-profile
 	 * semantics of the resource representation.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6906}
+	 * @see <a href="https://tools.ietf.org/html/rfc6906">https://tools.ietf.org/html/rfc6906</a>
 	 */
 	public static final LinkRelation PROFILE = LinkRelation.of(PROFILE_VALUE);
 
@@ -958,7 +958,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Identifies a related resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4287}
+	 * @see <a href="https://tools.ietf.org/html/rfc4287">https://tools.ietf.org/html/rfc4287</a>
 	 */
 	public static final LinkRelation RELATED = LinkRelation.of(RELATED_VALUE);
 
@@ -972,7 +972,7 @@ public final class IanaLinkRelations {
 	 * the API defined in RFC8040. Subsequent revisions of RESTCONF will use alternate relation values to support protocol
 	 * versioning.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc8040}
+	 * @see <a href="https://tools.ietf.org/html/rfc8040">https://tools.ietf.org/html/rfc8040</a>
 	 */
 	public static final LinkRelation RESTCONF = LinkRelation.of(RESTCONF_VALUE);
 
@@ -984,7 +984,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Identifies a resource that is a reply to the context of the link.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4685}
+	 * @see <a href="https://tools.ietf.org/html/rfc4685">https://tools.ietf.org/html/rfc4685</a>
 	 */
 	public static final LinkRelation REPLIES = LinkRelation.of(REPLIES_VALUE);
 
@@ -996,7 +996,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource that can be used to search through the link's context and related resources.
 	 *
-	 * @see {@link http://www.opensearch.org/Specifications/OpenSearch/1.1}
+	 * @see <a href="http://www.opensearch.org/Specifications/OpenSearch/1.1">http://www.opensearch.org/Specifications/OpenSearch/1.1</a>
 	 */
 	public static final LinkRelation SEARCH = LinkRelation.of(SEARCH_VALUE);
 
@@ -1008,7 +1008,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a section in a collection of resources.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation SECTION = LinkRelation.of(SECTION_VALUE);
 
@@ -1020,7 +1020,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Conveys an identifier for the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4287}
+	 * @see <a href="https://tools.ietf.org/html/rfc4287">https://tools.ietf.org/html/rfc4287</a>
 	 */
 	public static final LinkRelation SELF = LinkRelation.of(SELF_VALUE);
 
@@ -1032,7 +1032,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Indicates a URI that can be used to retrieve a service document.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5023}
+	 * @see <a href="https://tools.ietf.org/html/rfc5023">https://tools.ietf.org/html/rfc5023</a>
 	 */
 	public static final LinkRelation SERVICE = LinkRelation.of(SERVICE_VALUE);
 
@@ -1044,7 +1044,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the first resource in a collection of resources.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation START = LinkRelation.of(START_VALUE);
 
@@ -1056,7 +1056,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a stylesheet.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-stylesheet}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-stylesheet">https://www.w3.org/TR/html5/links.html#link-type-stylesheet</a>
 	 */
 	public static final LinkRelation STYLESHEET = LinkRelation.of(STYLESHEET_VALUE);
 
@@ -1068,7 +1068,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a resource serving as a subsection in a collection of resources.
 	 *
-	 * @see {@link https://www.w3.org/TR/1999/REC-html401-19991224}
+	 * @see <a href="https://www.w3.org/TR/1999/REC-html401-19991224">https://www.w3.org/TR/1999/REC-html401-19991224</a>
 	 */
 	public static final LinkRelation SUBSECTION = LinkRelation.of(SUBSECTION_VALUE);
 
@@ -1080,7 +1080,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to a resource containing the successor version in the version history.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation SUCCESSOR_VERSION = LinkRelation.of(SUCCESSOR_VERSION_VALUE);
 
@@ -1092,7 +1092,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Gives a tag (identified by the given address) that applies to the current document.
 	 *
-	 * @see {@link https://www.w3.org/TR/html5/links.html#link-type-tag}
+	 * @see <a href="https://www.w3.org/TR/html5/links.html#link-type-tag">https://www.w3.org/TR/html5/links.html#link-type-tag</a>
 	 */
 	public static final LinkRelation TAG = LinkRelation.of(TAG_VALUE);
 
@@ -1104,7 +1104,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to the terms of service associated with the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6903, section 5}
+	 * @see <a href="https://tools.ietf.org/html/rfc6903">https://tools.ietf.org/html/rfc6903, section 5</a>
 	 */
 	public static final LinkRelation TERMS_OF_SERVICE = LinkRelation.of(TERMS_OF_SERVICE_VALUE);
 
@@ -1116,7 +1116,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The Target IRI points to a TimeGate for an Original Resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7089}
+	 * @see <a href="https://tools.ietf.org/html/rfc7089">https://tools.ietf.org/html/rfc7089</a>
 	 */
 	public static final LinkRelation TIMEGATE = LinkRelation.of(TIMEGATE_VALUE);
 
@@ -1128,7 +1128,7 @@ public final class IanaLinkRelations {
 	/**
 	 * The Target IRI points to a TimeMap for an Original Resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc7089}
+	 * @see <a href="https://tools.ietf.org/html/rfc7089">https://tools.ietf.org/html/rfc7089</a>
 	 */
 	public static final LinkRelation TIMEMAP = LinkRelation.of(TIMEMAP_VALUE);
 
@@ -1141,7 +1141,7 @@ public final class IanaLinkRelations {
 	 * Refers to a resource identifying the abstract semantic type of which the link's context is considered to be an
 	 * instance.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc6903, section 6}
+	 * @see <a href="https://tools.ietf.org/html/rfc6903">https://tools.ietf.org/html/rfc6903, section 6</a>
 	 */
 	public static final LinkRelation TYPE = LinkRelation.of(TYPE_VALUE);
 
@@ -1153,7 +1153,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Refers to a parent document in a hierarchy of documents.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc8288}
+	 * @see <a href="https://tools.ietf.org/html/rfc8288">https://tools.ietf.org/html/rfc8288</a>
 	 */
 	public static final LinkRelation UP = LinkRelation.of(UP_VALUE);
 
@@ -1165,7 +1165,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to a resource containing the version history for the context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation VERSION_HISTORY = LinkRelation.of(VERSION_HISTORY_VALUE);
 
@@ -1177,7 +1177,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Identifies a resource that is the source of the information in the link's context.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc4287}
+	 * @see <a href="https://tools.ietf.org/html/rfc4287">https://tools.ietf.org/html/rfc4287</a>
 	 */
 	public static final LinkRelation VIA = LinkRelation.of(VIA_VALUE);
 
@@ -1190,7 +1190,7 @@ public final class IanaLinkRelations {
 	 * Identifies a target URI that supports the Webmention protcol. This allows clients that mention a resource in some
 	 * form of publishing process to contact that endpoint and inform it that this resource has been mentioned.
 	 *
-	 * @see {@link https://www.w3.org/TR/webmention/}
+	 * @see <a href="https://www.w3.org/TR/webmention/">https://www.w3.org/TR/webmention/</a>
 	 */
 	public static final LinkRelation WEBMENTION = LinkRelation.of(WEBMENTION_VALUE);
 
@@ -1202,7 +1202,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to a working copy for this resource.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation WORKING_COPY = LinkRelation.of(WORKING_COPY_VALUE);
 
@@ -1214,7 +1214,7 @@ public final class IanaLinkRelations {
 	/**
 	 * Points to the versioned resource from which this working copy was obtained.
 	 *
-	 * @see {@link https://tools.ietf.org/html/rfc5829}
+	 * @see <a href="https://tools.ietf.org/html/rfc5829">https://tools.ietf.org/html/rfc5829</a>
 	 */
 	public static final LinkRelation WORKING_COPY_OF = LinkRelation.of(WORKING_COPY_OF_VALUE);
 

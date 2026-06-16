@@ -59,7 +59,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 1. Minimal Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 1. Minimal Representation">http://amundsen.com/media-types/collection/examples/ - Section 1. Minimal Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -74,7 +74,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 2. Collection Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 2. Collection Representation">http://amundsen.com/media-types/collection/examples/ - Section 2. Collection Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -120,7 +120,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 3. Item Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 3. Item Representation">http://amundsen.com/media-types/collection/examples/ - Section 3. Item Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -146,7 +146,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 4. Queries Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 4. Queries Representation">http://amundsen.com/media-types/collection/examples/ - Section 4. Queries Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -164,7 +164,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 5. Template Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 5. Template Representation">http://amundsen.com/media-types/collection/examples/ - Section 5. Template Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -182,7 +182,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 6. Error Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 6. Error Representation">http://amundsen.com/media-types/collection/examples/ - Section 6. Error Representation</a>
 	 * @throws IOException
 	 */
 	@Test
@@ -200,7 +200,7 @@ class CollectionJsonSpecTest {
 	}
 
 	/**
-	 * @see http://amundsen.com/media-types/collection/examples/ - Section 7. Write Representation
+	 * @see <a href="http://amundsen.com/media-types/collection/examples/ - Section 7. Write Representation">http://amundsen.com/media-types/collection/examples/ - Section 7. Write Representation</a>
 	 * @throws IOException
 	 */
 	@Test

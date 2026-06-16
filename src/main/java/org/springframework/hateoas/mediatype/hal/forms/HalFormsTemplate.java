@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  *
  * @author Dietrich Schulten
  * @author Greg Turnquist
- * @see https://rwcbook.github.io/hal-forms/#_the_code__templates_code_element
+ * @see <a href="https://rwcbook.github.io/hal-forms/#_the_code__templates_code_element">https://rwcbook.github.io/hal-forms/#_the_code__templates_code_element</a>
  */
 @JsonAutoDetect(getterVisibility = Visibility.NON_PRIVATE)
 @JsonIgnoreProperties({ "httpMethod", "contentTypes" })

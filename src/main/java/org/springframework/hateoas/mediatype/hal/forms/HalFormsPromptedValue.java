@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
  * resources pointed to by the {@code link} object.
  *
  * @author Oliver Drotbohm
- * @see https://rwcbook.github.io/hal-forms/#options-element
+ * @see <a href="https://rwcbook.github.io/hal-forms/#options-element">https://rwcbook.github.io/hal-forms/#options-element</a>
  * @since 1.3
  */
 public class HalFormsPromptedValue {

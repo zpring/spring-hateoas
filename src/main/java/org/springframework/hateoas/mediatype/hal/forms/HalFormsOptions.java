@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  *
  * @author Oliver Drotbohm
  * @author Réda Housni Alaoui
- * @see https://rwcbook.github.io/hal-forms/#options-element
+ * @see <a href="https://rwcbook.github.io/hal-forms/#options-element">https://rwcbook.github.io/hal-forms/#options-element</a>
  * @since 1.3
  */
 @JsonInclude(Include.NON_EMPTY)

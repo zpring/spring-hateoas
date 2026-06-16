@@ -23,7 +23,7 @@ import java.util.Locale;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.15
- * @see http://alps.io/spec/#prop-format
+ * @see <a href="http://alps.io/spec/#prop-format">http://alps.io/spec/#prop-format</a>
  */
 public enum Format {
 

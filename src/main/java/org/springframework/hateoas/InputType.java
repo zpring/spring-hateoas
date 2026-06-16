@@ -34,7 +34,6 @@ import org.springframework.hateoas.mediatype.html.HtmlInputType;
  * @author Oliver Drotbohm
  * @see HtmlInputType
  * @since 1.3
- * @soundtrack Boney M - Daddy Cool (Take The Heat Off Me)
  */
 @Documented
 @Retention(RUNTIME)

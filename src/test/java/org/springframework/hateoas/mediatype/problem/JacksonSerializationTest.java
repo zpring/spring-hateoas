@@ -328,7 +328,7 @@ class JacksonSerializationTest {
 	/**
 	 * First reference domain definition.
 	 *
-	 * @see https://tools.ietf.org/html/rfc7807#section-3
+	 * @see <a href="https://tools.ietf.org/html/rfc7807#section-3">https://tools.ietf.org/html/rfc7807#section-3</a>
 	 */
 	@Value
 	@Getter(onMethod = @__(@JsonProperty))
@@ -348,7 +348,7 @@ class JacksonSerializationTest {
 	/**
 	 * Second reference domain definition.
 	 *
-	 * @see https://tools.ietf.org/html/rfc7807#section-3
+	 * @see <a href="https://tools.ietf.org/html/rfc7807#section-3">https://tools.ietf.org/html/rfc7807#section-3</a>
 	 */
 	@JsonAutoDetect
 	private static class InvalidParameters {

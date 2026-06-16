@@ -27,7 +27,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.15
- * @see http://alps.io/spec/#prop-ext
+ * @see <a href="http://alps.io/spec/#prop-ext">http://alps.io/spec/#prop-ext</a>
  */
 @JsonPropertyOrder({ "id", "href", "value" })
 public final class Ext {

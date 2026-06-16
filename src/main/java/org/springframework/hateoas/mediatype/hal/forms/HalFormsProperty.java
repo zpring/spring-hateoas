@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  * Describe a parameter for the associated state transition in a HAL-FORMS document. A {@link HalFormsTemplate} may
  * contain a list of {@link HalFormsProperty}s
  *
- * @see https://mamund.site44.com/misc/hal-forms/
+ * @see <a href="https://mamund.site44.com/misc/hal-forms/">https://mamund.site44.com/misc/hal-forms/</a>
  */
 @JsonInclude(Include.NON_DEFAULT)
 final class HalFormsProperty implements Named {

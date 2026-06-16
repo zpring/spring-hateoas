@@ -23,7 +23,7 @@ import org.springframework.hateoas.server.LinkRelationProvider;
  * {@link LinkRelationProvider} implementation using the Evo Inflector implementation of an algorithmic approach to
  * English plurals.
  *
- * @see http://users.monash.edu/~damian/papers/HTML/Plurals.html
+ * @see <a href="http://users.monash.edu/~damian/papers/HTML/Plurals.html">http://users.monash.edu/~damian/papers/HTML/Plurals.html</a>
  * @author Oliver Gierke
  */
 public class EvoInflectorLinkRelationProvider extends DefaultLinkRelationProvider {

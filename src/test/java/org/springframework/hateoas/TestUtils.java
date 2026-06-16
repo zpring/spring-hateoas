@@ -56,7 +56,7 @@ public class TestUtils {
 	 * Provide a mechanism to simulate inserting a {@link ForwardedHeaderFilter} into the servlet filter chain, so
 	 * {@literal Forwarded} headers are properly inserted into the test web request.
 	 *
-	 * @see https://jira.spring.io/browse/SPR-16668
+	 * @see <a href="https://jira.spring.io/browse/SPR-16668">https://jira.spring.io/browse/SPR-16668</a>
 	 */
 	protected void adaptRequestFromForwardedHeaders() {
 

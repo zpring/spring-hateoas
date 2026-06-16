@@ -29,7 +29,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.15
- * @see http://alps.io/spec/#prop-descriptor
+ * @see <a href="http://alps.io/spec/#prop-descriptor">http://alps.io/spec/#prop-descriptor</a>
  */
 @JsonPropertyOrder({ "id", "href", "name", "type", "doc", "descriptor", "ext" })
 @JsonInclude(JsonInclude.Include.NON_NULL)

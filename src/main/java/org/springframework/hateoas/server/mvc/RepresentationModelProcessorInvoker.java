@@ -39,7 +39,6 @@ import org.springframework.util.ReflectionUtils;
  * @author Oliver Gierke
  * @author Greg Turnquist
  * @since 0.20
- * @soundtrack Doppelkopf - Die fabelhaften Vier (Von Abseits)
  */
 public class RepresentationModelProcessorInvoker {
 

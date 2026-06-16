@@ -50,7 +50,7 @@ import com.jayway.jsonpath.JsonPath;
  * Component to ease traversing hypermedia APIs by following links with relation types. Highly inspired by the equally
  * named JavaScript library.
  *
- * @see https://github.com/basti1302/traverson
+ * @see <a href="https://github.com/basti1302/traverson">https://github.com/basti1302/traverson</a>
  * @author Oliver Gierke
  * @author Dietrich Schulten
  * @author Greg Turnquist
